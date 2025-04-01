@@ -1,6 +1,10 @@
 # ByteMaestro
 
- A Simple Programming Languge Compilers with syntax highlighting, indentation, and smooth code editing! 
+A Simple Programming Languge Compilers with syntax highlighting, indentation, and smooth code editing! 
+
+<p align="center">
+   <img src="assets/logo_with_name.png" width="600px"/>
+</p>
 
 ## Screenshoot
 
