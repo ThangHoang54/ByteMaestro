@@ -1,6 +1,7 @@
 # ByteMaestro
+<<<<<<< HEAD
 
- A Simple Programming Languges Compiler with syntax highlighting, indentation, and smooth code editing! 
+ A Simple Programming Languge Compilers with syntax highlighting, indentation, and smooth code editing! 
 
  ## Screenshoot
 
