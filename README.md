@@ -1,14 +1,13 @@
 # ByteMaestro
-<<<<<<< HEAD
 
  A Simple Programming Languge Compilers with syntax highlighting, indentation, and smooth code editing! 
 
- ## Screenshoot
+## Screenshoot
 
- ## Tech Tools
+## Tech Tools
 
- <p align="center">
-     <a href="https://skillicons.dev">
+<p align="center">
+   <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=git,vscode,html,css,js"/>
-    </a>
+   </a>
 </p>
