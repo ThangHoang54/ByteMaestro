@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #2C3E50;
+}
+
+.header{
+    margin-top: 12px;
+    background: #34495E;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    border-bottom: 8px solid #FFD700;
+    border-radius: 12px;
+}
+
+.header .title{
+    padding: 0.5rem;
+}
+
+.header .title .main-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .title .sub-title{
+    font-size: 14px;
+}
+
+.header .title .sub-title span{
+    color: #999;
+}
+
+.language{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 8px solid #FFD700;
+}
+
+.language .lang-item{
+    padding: 10px;
+    height: 40px;
+    width: 33.33%;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    background-color: #C2B280;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.editor{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    background-color: #000;
+    box-sizing: border-box;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.4);
+}
+
+.editor #html{
+    border-right: 1px solid #777;
+}
+
+.editor #css{
+    border-left: 20px solid #333;
+    border-right: 1px solid #777;
+}
+
+.editor #js{
+    border-left: 20px solid #333;
+}
+
+.code-box{
+    position: relative;
+    height: calc(50vh - 4.6rem);
+    border-top: 5px solid #000;
+    border-bottom: 10px solid #FFD700;
+    overflow: hidden;
+}
+
+.preview{
+    position: relative;
+    height: calc(90vh - 30px);
+    background-color: #C2B280;
+    border-top: 1px solid #34495E;
+}
+
+.preview iframe{
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 20px;
+}
