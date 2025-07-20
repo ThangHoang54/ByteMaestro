@@ -39,8 +39,7 @@ body{
     color: #999;
 }
 
-.language{
-    position: relative;
+.container .language{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
@@ -48,7 +47,7 @@ body{
     border-bottom: 8px solid #FFD700;
 }
 
-.language .lang-item{
+.lang-item{
     padding: 10px;
     height: 40px;
     width: 33.33%;
@@ -61,6 +60,12 @@ body{
     color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.lang-item i{
+    height: 40px;
+    font-size: 1.5rem;
+    margin-right: 6px;
 }
 
 .editor{
@@ -96,7 +101,7 @@ body{
 .preview{
     position: relative;
     height: calc(90vh - 30px);
-    background-color: #C2B280;
+    background-color: #a9b19d;
     border-top: 1px solid #34495E;
 }
 

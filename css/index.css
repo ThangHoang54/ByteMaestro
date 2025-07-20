@@ -121,14 +121,15 @@ body{
 }
 
 .container main .announce {
-    background-color: #FF6F61  ;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between left and image */
+    align-items: center;
+    justify-content: space-between;
     max-height: 400px;
-    color: #fff;
-    padding: 20px; /* Add padding for better spacing */
-    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    color: #fefefe;
+    padding: 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
 }
 
 .container main .announce .left {
@@ -168,6 +169,82 @@ body{
     margin-top: 20px; /* Space above the language summary */
     color: #50E3C2; /* Turquoise for accent text */
     font-size: 16px; /* Font size for the summary */
+}
+
+.compiler-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 30px;
+    background-color: #1e1e2f;
+}
+
+.container .compiler-section h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.container .compiler-section p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4dd0e1;
+}
+
+.language-card {
+    flex: 1 1 calc(33.33% - 40px); /* 3 per row with gap */
+    max-width: 380px;
+    min-width: 280px;
+    background: #2c2f45;
+    color: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 24px 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.language-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.language-card h3 {
+    margin: 12px 0 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.language-card p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.language-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #50e3c2;
+    color: #1e1e1e;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.language-card a:hover {
+    background-color: #2dd8a3;
 }
 
 .footer {
@@ -261,4 +338,16 @@ body{
 .footer-bottom {
     margin-top: 20px; /* Space above bottom text */
     font-size: 14px; /* Smaller font size */
+}
+
+@media (max-width: 1000px) {
+    .language-card {
+        flex: 1 1 calc(50% - 40px);
+    }
+}
+
+@media (max-width: 600px) {
+    .language-card {
+        flex: 1 1 100%;
+    }
 }
