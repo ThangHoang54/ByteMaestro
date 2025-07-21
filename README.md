@@ -21,8 +21,6 @@ Whether you're practicing Python, testing JS snippets, or building front-end lay
 - 🌐 **Multi-language support**: Write and run code in Python, JavaScript, C, C++, and Java
 - 🧾 **HTML/CSS/JS Live Editor**: Auto-refresh preview, tabbed editor layout
 - 🎨 **Syntax highlighting** via [CodeMirror](https://codemirror.net/)
-- 🧱 **Drag-and-swap layout**: Rearrange your editors for custom workflow
-- 🌓 **Dark-themed UI** with golden accents for better visual focus
 - 📱 **Responsive design** for mobile and desktop
 
 ---
