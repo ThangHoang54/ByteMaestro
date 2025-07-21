@@ -371,6 +371,33 @@ body{
     background-color: #2dd8a3;
 }
 
+.section-nav {
+    position: fixed;
+    top: 40%;
+    left: 18px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(44, 62, 80, 0.85); /* match your theme */
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.section-nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.section-nav a:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
 .footer {
     background: linear-gradient(145deg, #1b2a41, #253248); /* Smooth deep blue gradient */
     color: #ECF0F1;
@@ -487,6 +514,27 @@ body{
     padding-top: 20px;
 }
 
+/* Mobile (≤ 480px) */
+@media (max-width: 480px) {
+    .container .navbar {
+        padding: 10px 12px;
+    }
+
+    .container .navbar .left-section h3 {
+        font-size: 18px;
+    }
+
+    .container .navbar .right-section a,
+    .container .navbar .right-section .dropbtn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .container .navbar .right-section .dropdown .dropdown-content a {
+        font-size: 13px;
+    }
+}
+
 /* Responsive tweaks */
 @media (max-width: 1024px) {
     .container main .announce {
@@ -514,15 +562,47 @@ body{
 }
 
 @media (max-width: 768px) {
-  .mission h2,
-  .features h2 {
-    font-size: 2rem;
-  }
+    .container .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 16px;
+        height: auto;
+        gap: 12px;
+    }
 
-  .mission p,
-  .feature-card p {
-    font-size: 1.05rem;
-  }
+    .container .navbar .left-section {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container .navbar .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 6px;
+    }
+
+    .container .navbar .right-section a,
+    .container .navbar .right-section .dropbtn {
+        width: 100%;
+        text-align: left;
+    }
+
+    .container .navbar .right-section .dropdown .dropdown-content {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+
+    .mission h2,
+    .features h2 {
+        font-size: 2rem;
+    }
+
+    .mission p,
+    .feature-card p {
+        font-size: 1.05rem;
+    }
 }
 
 /* Responsive - Stack Cards on Small Screens */
