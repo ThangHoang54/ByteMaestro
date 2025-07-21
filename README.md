@@ -1,10 +1,6 @@
-# ByteMaestro 💻
+#  <img src="assets/logo_mini.png" width="36px"/> ByteMaestro 
 
 **ByteMaestro** is a lightweight, in-browser code editor that supports live HTML-CSS-JS previews and code execution for various programming languages via a simplified interface. Built entirely with vanilla HTML, CSS, and JavaScript, it aims to provide an intuitive space for students, beginners, and tinkerers to write, run, and preview their code without setup hassle.
-
-<p align="center">
-   <img src="assets/logo_with_name.png" width="600px"/>
-</p>
 
 ---
 
@@ -31,19 +27,11 @@ Whether you're practicing Python, testing JS snippets, or building front-end lay
 
 ---
 
-## 🚧 Future Roadmap
-
-- 📝 Add save/load project feature (localStorage or download)
-- ⌨️ Expand language support with additional compilers
-- 🧪 Inline test case runner (for supported languages)
-- 💾 Option to export code as `.zip` or `.html` snippet
-- 🔗 Shareable code links (with optional code shortening)
-
----
-
 ## 🖼 UI Preview
 
 ![ByteMaestro Homepage Screenshot](assets/preview.png)
+![ByteMaestro Python Compiler Screenshot](assets/pyCompilerPreview.png)
+![ByteMaestro Live Coding Screenshot](assets/liveCodingPreview.png)
 
 ---
 
@@ -70,5 +58,6 @@ Whether you're practicing Python, testing JS snippets, or building front-end lay
 - CodeMirror – Code editor magic ✨
 - Boxicons – Beautiful icon set
 - Inspiration from open-source editors like JSFiddle, CodePen, and Replit
+- Gratitude to all contributors and users who help improve the system through feedback and suggestions.
 
 
